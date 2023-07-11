@@ -1,0 +1,179 @@
+D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\android>gradlew clean bundleUaeProductionRelease
+
+> Configure project :app
+Reading env from: .env
+this current flavour name UaeDevelopmentDebug
+this current flavour name MvQAUATDebug
+this current flavour name BdQAUATDebug
+this current flavour name BhDevelopmentDebug
+this current flavour name MvProductionDebug
+this current flavour name UaeProductionDebug
+this current flavour name BhProduction
+this current flavour name BdProductionDebug
+this current flavour name BdProduction
+this current flavour name LkProduction
+this current flavour name UaeQAUATDebug
+this current flavour name LkDevelopmentDebug
+this current flavour name BhQAUATDebug
+this current flavour name UaeProduction
+this current flavour name BdDevelopmentDebug
+this current flavour name MvProduction
+this current flavour name LkProductionDebug
+this current flavour name BhProductionDebug
+this current flavour name MvDevelopmentDebug
+this current flavour name LkQAUATDebug
+this current flavour name UaeDevelopment
+this current flavour name MvQAUAT
+this current flavour name BdQAUAT
+this current flavour name BhDevelopment
+this current flavour name MvProduction
+this current flavour name UaeProduction
+this current flavour name BhProduction
+this current flavour name BdProduction
+this current flavour name BdProduction
+this current flavour name LkProduction
+this current flavour name UaeQAUAT
+this current flavour name LkDevelopment
+this current flavour name BhQAUAT
+this current flavour name UaeProduction
+this current flavour name BdDevelopment
+this current flavour name MvProduction
+this current flavour name LkProduction
+this current flavour name BhProduction
+this current flavour name MvDevelopment
+this current flavour name LkQAUAT
+
+> Configure project :react-native-open-settings
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+For more information, see http://d.android.com/r/tools/update-dependency-configurations.html.
+
+> Configure project :react-native-pinch-new
+WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
+It will be removed in version 5.0 of the Android Gradle plugin.
+For more information, see http://d.android.com/r/tools/update-dependency-configurations.html.
+WARNING: The specified Android SDK Build Tools version (23.0.1) is ignored, as it is below the minimum supported version (29.0.2) for Android Gradle Plugin 4.0.1.
+Android SDK Build Tools 29.0.2 will be used.
+To suppress this warning, remove "buildToolsVersion '23.0.1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
+
+> Task :app:bundleUaeProductionReleaseJsAndAssets
+warning: the transform cache was reset.
+                 Welcome to React Native!
+                Learn once, write anywhere
+
+
+info Writing bundle output to:, D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\android\app\build\generated\assets\react\UaeProduction\release\index.android.bundle
+info Writing sourcemap output to:, D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\android\app\build\generated\sourcemaps\react\UaeProduction\release\index.android.bundle.map
+info Done writing sourcemap output
+info Done writing bundle output
+info Copying 183 asset files
+info Done copying assets
+
+> Task :react-native-rsa-native:compileReleaseJavaWithJavac
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-rsa-native\android\src\main\java\com\RNRSA\RSA.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :RNMail:compileReleaseJavaWithJavac
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-mail\android\src\main\java\com\chirag\RNMail\RNMailModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-share:compileReleaseJavaWithJavac
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-share\android\src\main\java\cl\json\RNSharePathUtil.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :rn-fetch-blob:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-maps:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-localization:compileReleaseJavaWithJavac
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-localization\android\src\main\java\com\babisoft\ReactNativeLocalization\ReactNativeLocalization.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-pinch-new:compileReleaseJavaWithJavac
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-pinch-new\android\src\main\java\com\localz\RNPinch.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-device-info:compileReleaseJavaWithJavac
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-device-info\android\src\main\java\com\learnium\RNDeviceInfo\RNDeviceModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-async-storage_async-storage:compileReleaseJavaWithJavac
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\@react-native-async-storage\async-storage\android\src\main\java\com\reactnativecommunity\asyncstorage\AsyncStorageModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\@react-native-async-storage\async-storage\android\src\main\java\com\reactnativecommunity\asyncstorage\AsyncStoragePackage.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-community_geolocation:compileReleaseJavaWithJavac
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\@react-native-community\geolocation\android\src\main\java\com\reactnativecommunity\geolocation\GeolocationModule.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-fs:compileReleaseJavaWithJavac
+Note: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-fs\android\src\main\java\com\rnfs\RNFSManager.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :react-native-gesture-handler:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :react-native-screens:compileReleaseKotlin
+w: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\Screen.kt: (82, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt: (64, 28): 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+w: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt: (120, 28): 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+w: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackHeaderConfig.kt: (238, 29): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (65, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (113, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (122, 43): 'replaceSystemWindowInsets(Int, Int, Int, Int): WindowInsets!' is deprecated. Deprecated i
+n Java
+w: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt: (13, 40): Parameter 'width' is never used
+w: D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt: (13, 52): Parameter 'height' is never used
+
+> Task :react-native-image-resizer:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:compileUaeProductionReleaseJavaWithJavac
+D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\android\app\src\main\java\com\international\fingerprint\FingerprintModule.java:267: warning: non-varargs call of varargs method with inexact argument type for last parameter;
+                successCallback.invoke(cdata);
+                                       ^
+  cast to Object for a varargs call
+  cast to Object[] for a non-varargs call and to suppress this warning
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+1 warning
+
+> Task :app:transformClassesWithDashOForUaeProductionRelease
+DashO Gradle Plugin for Android v1.4.0.120+28ba7e6
+Warning: Error communicating with the activation server (will try again in 30 seconds): Error trying to contact licensing server
+Error: Unable to validate license. Please contact support. Server response: Error trying to contact licensing server
+Licensed to: danish.syed@hbl.com
+Invalid License: License ending in 8B3B (length 32) (from environment)
+This software may not be used on binaries for general release.
+
+
+> Task :app:transformClassesWithDashOForUaeProductionRelease FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:transformClassesWithDashOForUaeProductionRelease'.
+> com.android.build.api.transform.TransformException: Error protecting. Please see the above output or D:\Workplace\react native\HBLMobile-SriLanka-0.63.3 - Apk\android\app\build\outputs\logs\dasho-UaeProductionRelease-log.txt.
+
+* Try:
+Run with --stacktrace option to get the stack trace. Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 7.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/6.3/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 2m 22s
+468 actionable tasks: 400 executed, 68 up-to-date

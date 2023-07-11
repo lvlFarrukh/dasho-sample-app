@@ -1,0 +1,641 @@
+C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android>gradlew assembleRelease
+
+> Configure project :app
+WARNING:API 'android.registerTransform' is obsolete.
+It will be removed in version 8.0 of the Android Gradle plugin.
+The Transform API is removed to improve build performance. Projects that use the
+Transform API force the Android Gradle plugin to use a less optimized flow for the
+build that can result in large regressions in build times. ItÆs also difficult to
+use the Transform API and combine it with other Gradle features; the replacement
+APIs aim to make it easier to extend the build without introducing performance or
+correctness issues.
+
+There is no single replacement for the Transform APIùthere are new, targeted
+APIs for each use case. All the replacement APIs are in the
+`androidComponents {}` block.
+
+The Transform API uses incremental APIs deprecated since Gradle 7.5. Please add
+`android.experimental.legacyTransform.forceNonIncremental=true` to
+`gradle.properties` to fix this issue. Note that this will run transforms
+non-incrementally and may have a build performance impact.
+For more information, see https://developer.android.com/studio/releases/gradle-plugin-api-updates#transform-api.
+To determine what is calling android.registerTransform, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :react-native-safe-area-context:processReleaseManifest
+package="com.th3rdwave.safeareacontext" found in source AndroidManifest.xml: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+Setting the namespace via a source AndroidManifest.xml's package attribute is deprecated.
+Please instead set the namespace (or testNamespace) in the module's build.gradle file, as described here: https://developer.android.com/studio/build/configure-app-module#set-namespace
+This migration can be done automatically using the AGP Upgrade Assistant, please refer to https://developer.android.com/studio/build/agp-upgrade-assistant for more information.
+
+> Task :react-native-screens:processReleaseManifest
+package="com.swmansion.rnscreens" found in source AndroidManifest.xml: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\AndroidManifest.xml.
+Setting the namespace via a source AndroidManifest.xml's package attribute is deprecated.
+Please instead set the namespace (or testNamespace) in the module's build.gradle file, as described here: https://developer.android.com/studio/build/configure-app-module#set-namespace
+This migration can be done automatically using the AGP Upgrade Assistant, please refer to https://developer.android.com/studio/build/agp-upgrade-assistant for more information.
+
+> Task :react-native-safe-area-context:compileReleaseKotlin
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-safe-area-context\android\src\main\java\com\th3rdwave\safeareacontext\SafeAreaView.kt: (50, 23): 'getter for uiImplementation: UIImplementation!' is deprecated. Deprecated in Java
+
+> Task :app:createBundleReleaseJsAndAssets
+warning: the transform cache was reset.
+                Welcome to Metro v0.73.10
+              Fast - Scalable - Integrated
+
+
+
+> Task :react-native-screens:compileReleaseKotlin
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\Screen.kt: (77, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt: (62, 28): 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt: (119, 28): 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackHeaderConfig.kt: (85, 34): 'getter for systemWindowInsetTop: Int' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackHeaderConfig.kt: (227, 37): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (64, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (109, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (118, 43): 'replaceSystemWindowInsets(Int, Int, Int, Int): WindowInsetsCompat' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (119, 47): 'getter for systemWindowInsetLeft: Int' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (121, 47): 'getter for systemWindowInsetRight: Int' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (122, 47): 'getter for systemWindowInsetBottom: Int' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\SearchBarView.kt: (141, 43): Parameter 'flag' is never used
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderAttachedEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderAttachedEvent.kt: (7, 42): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderAttachedEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderAttachedEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderBackButtonClickedEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderBackButtonClickedEvent.kt: (7, 51): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderBackButtonClickedEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderBackButtonClickedEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderDetachedEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderDetachedEvent.kt: (7, 42): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderDetachedEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderDetachedEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenAppearEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenAppearEvent.kt: (7, 40): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenAppearEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenAppearEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDisappearEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDisappearEvent.kt: (7, 43): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDisappearEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDisappearEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDismissedEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDismissedEvent.kt: (7, 43): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDismissedEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDismissedEvent.kt: (17, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenTransitionProgressEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenTransitionProgressEvent.kt: (13, 5): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenTransitionProgressEvent.kt: (22, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenTransitionProgressEvent.kt: (27, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillAppearEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillAppearEvent.kt: (7, 44): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillAppearEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillAppearEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillDisappearEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillDisappearEvent.kt: (7, 47): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillDisappearEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillDisappearEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarBlurEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarBlurEvent.kt: (7, 41): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarBlurEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarBlurEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarChangeTextEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarChangeTextEvent.kt: (10, 5): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarChangeTextEvent.kt: (20, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarChangeTextEvent.kt: (23, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarCloseEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarCloseEvent.kt: (7, 42): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarCloseEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarCloseEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarFocusEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarFocusEvent.kt: (7, 42): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarFocusEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarFocusEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarOpenEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarOpenEvent.kt: (7, 41): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarOpenEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarOpenEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarSearchButtonPressEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarSearchButtonPressEvent.kt: (7, 81): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarSearchButtonPressEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarSearchButtonPressEvent.kt: (20, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\StackFinishTransitioningEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\StackFinishTransitioningEvent.kt: (7, 52): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\StackFinishTransitioningEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\StackFinishTransitioningEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt: (7, 42): Parameter 'width' is never used
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt: (7, 54): Parameter 'height' is never used
+
+> Task :app:createBundleReleaseJsAndAssets
+info Writing bundle output to:, android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle
+info Writing sourcemap output to:, android\app\build\intermediates\sourcemaps\react\release\index.android.bundle.packager.map
+info Done writing sourcemap output
+info Done writing bundle output
+info Copying 7 asset files
+info Done copying assets
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:1713:23: warning: the variable "DebuggerInternal" was not declared in function "__shouldPauseOnThrow"
+        return typeof DebuggerInternal !== 'undefined' && DebuggerInternal.shouldPauseOnThrow === true;
+                      ^~~~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:4933:7: warning: the variable "setTimeout" was not declared in function "logCapturedError"
+      setTimeout(function () {
+      ^~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:2907:108: warning: the variable "nativeFabricUIManager" was not declared in function "onChange"
+      (fromOrTo = fromOrTo && fromOrTo.stateNode) && fromOrTo.canonical._internalInstanceHandle ? (from && nativeFabricUIManager.setIsJSResponder(from.stateNode.node, false, blockNativeResponder || false), to && nativeFabricUIManager.setIsJSResponder(to.stateNode.node, true, blockNativeResponder || false)) : null !== to ? _$$_REQUIRE(_dependencyMap[2]).UIManager.setJSResponder(to.stateNode.canonical._nativeTag, blockNativeResponder) : _$$_REQUIRE(_dependencyMap[2]).UIManager.clearJSResponder();
+                                                                                                           ^~~~~~~~~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:3514:21: warning: the variable "clearTimeout" was not declared in anonymous function " 98#"
+    cancelTimeout = clearTimeout;
+                    ^~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:7264:30: warning: the variable "__REACT_DEVTOOLS_GLOBAL_HOOK__" was not declared in anonymous function " 98#"
+  if ("undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__) {
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:8033:5: warning: the variable "setImmediate" was not declared in function "handleResolved"
+    setImmediate(function () {
+    ^~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:8244:16: warning: the variable "AggregateError" was not declared in function "getAggregateError"
+    if (typeof AggregateError === 'function') {
+               ^~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:10993:12: warning: the variable "fetch" was not declared in anonymous function " 301#"
+    fetch: fetch,
+           ^~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:10994:14: warning: the variable "Headers" was not declared in anonymous function " 301#"
+    Headers: Headers,
+             ^~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:10995:14: warning: the variable "Request" was not declared in anonymous function " 301#"
+    Request: Request,
+             ^~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:10996:15: warning: the variable "Response" was not declared in anonymous function " 301#"
+    Response: Response
+              ^~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11144:24: warning: the variable "FileReader" was not declared in function "readBlobAsArrayBuffer"
+      var reader = new FileReader();
+                       ^~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11181:36: warning: the variable "Blob" was not declared in anonymous function " 312#"
+        } else if (support.blob && Blob.prototype.isPrototypeOf(body)) {
+                                   ^~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11183:40: warning: the variable "FormData" was not declared in anonymous function " 312#"
+        } else if (support.formData && FormData.prototype.isPrototypeOf(body)) {
+                                       ^~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11185:44: warning: the variable "URLSearchParams" was not declared in anonymous function " 312#"
+        } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
+                                           ^~~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11412:23: warning: the variable "XMLHttpRequest" was not declared in anonymous function " 321#"
+        var xhr = new XMLHttpRequest();
+                      ^~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11005:76: warning: the variable "self" was not declared in anonymous function " 304#"
+    var global = typeof globalThis !== 'undefined' && globalThis || typeof self !== 'undefined' && self || typeof global !== 'undefined' && global;
+                                                                           ^~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:16644:27: warning: the variable "performance" was not declared in anonymous function " 560#"
+  if ("object" === typeof performance && "function" === typeof performance.now) {
+                          ^~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:16667:26: warning: the variable "navigator" was not declared in anonymous function " 560#"
+  "undefined" !== typeof navigator && undefined !== navigator.scheduling && undefined !== navigator.scheduling.isInputPending && navigator.scheduling.isInputPending.bind(navigator.scheduling);
+                         ^~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:16734:37: warning: the variable "MessageChannel" was not declared in anonymous function " 560#"
+  };else if ("undefined" !== typeof MessageChannel) {
+                                    ^~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:24933:34: warning: the variable "requestAnimationFrame" was not declared in function "start 9#"
+          this._animationFrame = requestAnimationFrame(this.onUpdate.bind(this));
+                                 ^~~~~~~~~~~~~~~~~~~~~
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libc++_shared.so, libcxxcomponents.so, libfabricjni.so, libfb.so, libfbjni.so, libfolly_runtime.so, libglog.so, libglog_init.so, libhermes.so, libhermes_executor.so, libimagepipeline.so, libjsi.so, libjsijniprofiler.so, libjsinspector.so, liblogger.so, libmapbufferjni.so, libnative-filters.so, libnative-imagetranscoder.so, libreact_codegen_rncore.so, libreact_config.so, libreact_debug.so, libreact_nativemodule_core.so, libreact_newarchdefaults.so, libreact_render_animations.so, libreact_render_attributedstring.so, libreact_render_componentregistry.so, libreact_render_core.so, libreact_render_debug.so, libreact_render_graphics.so, libreact_render_imagemanager.so, libreact_render_leakchecker.so, libreact_render_mapbuffer.so, libreact_render_mounting.so, libreact_render_runtimescheduler.so, libreact_render_scheduler.so, libreact_render_telemetry.so, libreact_render_templateprocessor.so, libreact_render_textlayoutmanager.so, libreact_render_uimanager.so, libreact_utils.so, libreactnativeblob.so, libreactnativejni.so, libreactperfloggerjni.so, librrc_image.so, librrc_root.so, librrc_scrollview.so, librrc_text.so, librrc_textinput.so, librrc_unimplementedview.so, librrc_view.so, libruntimeexecutor.so, libturbomodulejsijni.so, libyoga.so.
+
+> Task :app:compileReleaseJavaWithJavac FAILED
+w: Detected multiple Kotlin daemon sessions at build\kotlin\sessions
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:compileReleaseJavaWithJavac'.
+> Cannot fingerprint input file property 'stableSources': Cannot convert the provided notation to a File or URI: [C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\tmp\release_encrypted\java].
+  The following types/formats are supported:
+    - A String or CharSequence path, for example 'src/main/java' or '/usr/include'.
+    - A String or CharSequence URI, for example 'file:/usr/include'.
+    - A File instance.
+    - A Path instance.
+    - A Directory instance.
+    - A RegularFile instance.
+    - A URI or URL instance.
+    - A TextResource instance.
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+java.lang.StackOverflowError (no error message)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 46s
+107 actionable tasks: 89 executed, 18 up-to-date
+
+C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android>gradlew clean assembleRelease
+
+> Configure project :app
+WARNING:API 'android.registerTransform' is obsolete.
+It will be removed in version 8.0 of the Android Gradle plugin.
+The Transform API is removed to improve build performance. Projects that use the
+Transform API force the Android Gradle plugin to use a less optimized flow for the
+build that can result in large regressions in build times. ItÆs also difficult to
+use the Transform API and combine it with other Gradle features; the replacement
+APIs aim to make it easier to extend the build without introducing performance or
+correctness issues.
+
+There is no single replacement for the Transform APIùthere are new, targeted
+APIs for each use case. All the replacement APIs are in the
+`androidComponents {}` block.
+
+The Transform API uses incremental APIs deprecated since Gradle 7.5. Please add
+`android.experimental.legacyTransform.forceNonIncremental=true` to
+`gradle.properties` to fix this issue. Note that this will run transforms
+non-incrementally and may have a build performance impact.
+For more information, see https://developer.android.com/studio/releases/gradle-plugin-api-updates#transform-api.
+To determine what is calling android.registerTransform, use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
+
+> Task :react-native-safe-area-context:processReleaseManifest
+package="com.th3rdwave.safeareacontext" found in source AndroidManifest.xml: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-safe-area-context\android\src\main\AndroidManifest.xml.
+Setting the namespace via a source AndroidManifest.xml's package attribute is deprecated.
+Please instead set the namespace (or testNamespace) in the module's build.gradle file, as described here: https://developer.android.com/studio/build/configure-app-module#set-namespace
+This migration can be done automatically using the AGP Upgrade Assistant, please refer to https://developer.android.com/studio/build/agp-upgrade-assistant for more information.
+
+> Task :react-native-screens:processReleaseManifest
+package="com.swmansion.rnscreens" found in source AndroidManifest.xml: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\AndroidManifest.xml.
+Setting the namespace via a source AndroidManifest.xml's package attribute is deprecated.
+Please instead set the namespace (or testNamespace) in the module's build.gradle file, as described here: https://developer.android.com/studio/build/configure-app-module#set-namespace
+This migration can be done automatically using the AGP Upgrade Assistant, please refer to https://developer.android.com/studio/build/agp-upgrade-assistant for more information.
+
+> Task :react-native-safe-area-context:compileReleaseKotlin
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-safe-area-context\android\src\main\java\com\th3rdwave\safeareacontext\SafeAreaView.kt: (50, 23): 'getter for uiImplementation: UIImplementation!' is deprecated. Deprecated in Java
+
+> Task :app:createBundleReleaseJsAndAssets
+warning: the transform cache was reset.
+                Welcome to Metro v0.73.10
+              Fast - Scalable - Integrated
+
+
+info Writing bundle output to:, android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle
+info Writing sourcemap output to:, android\app\build\intermediates\sourcemaps\react\release\index.android.bundle.packager.map
+info Done writing sourcemap output
+info Done writing bundle output
+info Copying 7 asset files
+info Done copying assets
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:1713:23: warning: the variable "DebuggerInternal" was not declared in function "__shouldPauseOnThrow"
+        return typeof DebuggerInternal !== 'undefined' && DebuggerInternal.shouldPauseOnThrow === true;
+                      ^~~~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:4933:7: warning: the variable "setTimeout" was not declared in function "logCapturedError"
+      setTimeout(function () {
+      ^~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:2907:108: warning: the variable "nativeFabricUIManager" was not declared in function "onChange"
+      (fromOrTo = fromOrTo && fromOrTo.stateNode) && fromOrTo.canonical._internalInstanceHandle ? (from && nativeFabricUIManager.setIsJSResponder(from.stateNode.node, false, blockNativeResponder || false), to && nativeFabricUIManager.setIsJSResponder(to.stateNode.node, true, blockNativeResponder || false)) : null !== to ? _$$_REQUIRE(_dependencyMap[2]).UIManager.setJSResponder(to.stateNode.canonical._nativeTag, blockNativeResponder) : _$$_REQUIRE(_dependencyMap[2]).UIManager.clearJSResponder();
+                                                                                                           ^~~~~~~~~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:3514:21: warning: the variable "clearTimeout" was not declared in anonymous function " 98#"
+    cancelTimeout = clearTimeout;
+                    ^~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:7264:30: warning: the variable "__REACT_DEVTOOLS_GLOBAL_HOOK__" was not declared in anonymous function " 98#"
+  if ("undefined" !== typeof __REACT_DEVTOOLS_GLOBAL_HOOK__) {
+                             ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:8033:5: warning: the variable "setImmediate" was not declared in function "handleResolved"
+    setImmediate(function () {
+    ^~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:8244:16: warning: the variable "AggregateError" was not declared in function "getAggregateError"
+    if (typeof AggregateError === 'function') {
+               ^~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:10993:12: warning: the variable "fetch" was not declared in anonymous function " 301#"
+    fetch: fetch,
+           ^~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:10994:14: warning: the variable "Headers" was not declared in anonymous function " 301#"
+    Headers: Headers,
+             ^~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:10995:14: warning: the variable "Request" was not declared in anonymous function " 301#"
+    Request: Request,
+             ^~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:10996:15: warning: the variable "Response" was not declared in anonymous function " 301#"
+    Response: Response
+              ^~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11144:24: warning: the variable "FileReader" was not declared in function "readBlobAsArrayBuffer"
+      var reader = new FileReader();
+                       ^~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11181:36: warning: the variable "Blob" was not declared in anonymous function " 312#"
+        } else if (support.blob && Blob.prototype.isPrototypeOf(body)) {
+                                   ^~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11183:40: warning: the variable "FormData" was not declared in anonymous function " 312#"
+        } else if (support.formData && FormData.prototype.isPrototypeOf(body)) {
+                                       ^~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11185:44: warning: the variable "URLSearchParams" was not declared in anonymous function " 312#"
+        } else if (support.searchParams && URLSearchParams.prototype.isPrototypeOf(body)) {
+                                           ^~~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11412:23: warning: the variable "XMLHttpRequest" was not declared in anonymous function " 321#"
+        var xhr = new XMLHttpRequest();
+                      ^~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:11005:76: warning: the variable "self" was not declared in anonymous function " 304#"
+    var global = typeof globalThis !== 'undefined' && globalThis || typeof self !== 'undefined' && self || typeof global !== 'undefined' && global;
+                                                                           ^~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:16644:27: warning: the variable "performance" was not declared in anonymous function " 560#"
+  if ("object" === typeof performance && "function" === typeof performance.now) {
+                          ^~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:16667:26: warning: the variable "navigator" was not declared in anonymous function " 560#"
+  "undefined" !== typeof navigator && undefined !== navigator.scheduling && undefined !== navigator.scheduling.isInputPending && navigator.scheduling.isInputPending.bind(navigator.scheduling);
+                         ^~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:16734:37: warning: the variable "MessageChannel" was not declared in anonymous function " 560#"
+  };else if ("undefined" !== typeof MessageChannel) {
+                                    ^~~~~~~~~~~~~~
+android\app\build\ASSETS\createBundleReleaseJsAndAssets\index.android.bundle:24933:34: warning: the variable "requestAnimationFrame" was not declared in function "start 9#"
+          this._animationFrame = requestAnimationFrame(this.onUpdate.bind(this));
+                                 ^~~~~~~~~~~~~~~~~~~~~
+
+> Task :react-native-screens:compileReleaseKotlin
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\Screen.kt: (77, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt: (62, 28): 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackFragment.kt: (119, 28): 'setter for targetElevation: Float' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackHeaderConfig.kt: (85, 34): 'getter for systemWindowInsetTop: Int' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenStackHeaderConfig.kt: (227, 37): 'setColorFilter(Int, PorterDuff.Mode): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (64, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (109, 22): 'constructor GuardedRunnable(ReactContext!)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (118, 43): 'replaceSystemWindowInsets(Int, Int, Int, Int): WindowInsetsCompat' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (119, 47): 'getter for systemWindowInsetLeft: Int' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (121, 47): 'getter for systemWindowInsetRight: Int' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\ScreenWindowTraits.kt: (122, 47): 'getter for systemWindowInsetBottom: Int' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\SearchBarView.kt: (141, 43): Parameter 'flag' is never used
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderAttachedEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderAttachedEvent.kt: (7, 42): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderAttachedEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderAttachedEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderBackButtonClickedEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderBackButtonClickedEvent.kt: (7, 51): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderBackButtonClickedEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderBackButtonClickedEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderDetachedEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderDetachedEvent.kt: (7, 42): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderDetachedEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\HeaderDetachedEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenAppearEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenAppearEvent.kt: (7, 40): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenAppearEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenAppearEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDisappearEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDisappearEvent.kt: (7, 43): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDisappearEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDisappearEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDismissedEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDismissedEvent.kt: (7, 43): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDismissedEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenDismissedEvent.kt: (17, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenTransitionProgressEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenTransitionProgressEvent.kt: (13, 5): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenTransitionProgressEvent.kt: (22, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenTransitionProgressEvent.kt: (27, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillAppearEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillAppearEvent.kt: (7, 44): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillAppearEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillAppearEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillDisappearEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillDisappearEvent.kt: (7, 47): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillDisappearEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\ScreenWillDisappearEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarBlurEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarBlurEvent.kt: (7, 41): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarBlurEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarBlurEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarChangeTextEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarChangeTextEvent.kt: (10, 5): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarChangeTextEvent.kt: (20, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarChangeTextEvent.kt: (23, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarCloseEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarCloseEvent.kt: (7, 42): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarCloseEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarCloseEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarFocusEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarFocusEvent.kt: (7, 42): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarFocusEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarFocusEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarOpenEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarOpenEvent.kt: (7, 41): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarOpenEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarOpenEvent.kt: (18, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarSearchButtonPressEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarSearchButtonPressEvent.kt: (7, 81): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarSearchButtonPressEvent.kt: (17, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\SearchBarSearchButtonPressEvent.kt: (20, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\StackFinishTransitioningEvent.kt: (5, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\StackFinishTransitioningEvent.kt: (7, 52): 'constructor Event<T : Event<(raw) Event<*>>!>(Int)' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\StackFinishTransitioningEvent.kt: (13, 44): 'RCTEventEmitter' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\main\java\com\swmansion\rnscreens\events\StackFinishTransitioningEvent.kt: (14, 25): 'receiveEvent(Int, String!, WritableMap?): Unit' is deprecated. Deprecated in Java
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt: (7, 42): Parameter 'width' is never used
+w: C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\node_modules\react-native-screens\android\src\paper\java\com\swmansion\rnscreens\FabricEnabledViewGroup.kt: (7, 54): Parameter 'height' is never used
+
+> Task :app:stripReleaseDebugSymbols
+Unable to strip the following libraries, packaging them as they are: libc++_shared.so, libcxxcomponents.so, libfabricjni.so, libfb.so, libfbjni.so, libfolly_runtime.so, libglog.so, libglog_init.so, libhermes.so, libhermes_executor.so, libimagepipeline.so, libjsi.so, libjsijniprofiler.so, libjsinspector.so, liblogger.so, libmapbufferjni.so, libnative-filters.so, libnative-imagetranscoder.so, libreact_codegen_rncore.so, libreact_config.so, libreact_debug.so, libreact_nativemodule_core.so, libreact_newarchdefaults.so, libreact_render_animations.so, libreact_render_attributedstring.so, libreact_render_componentregistry.so, libreact_render_core.so, libreact_render_debug.so, libreact_render_graphics.so, libreact_render_imagemanager.so, libreact_render_leakchecker.so, libreact_render_mapbuffer.so, libreact_render_mounting.so, libreact_render_runtimescheduler.so, libreact_render_scheduler.so, libreact_render_telemetry.so, libreact_render_templateprocessor.so, libreact_render_textlayoutmanager.so, libreact_render_uimanager.so, libreact_utils.so, libreactnativeblob.so, libreactnativejni.so, libreactperfloggerjni.so, librrc_image.so, librrc_root.so, librrc_scrollview.so, librrc_text.so, librrc_textinput.so, librrc_unimplementedview.so, librrc_view.so, libruntimeexecutor.so, libturbomodulejsijni.so, libyoga.so.
+
+> Task :app:transformClassesWithDashOForRelease
+DashO Gradle Plugin for Android v1.4.0.120+28ba7e6
+PreEmptive Protection DashO v12.0.0 (11983)
+Copyright 1998-2022 PreEmptive Solutions, LLC. All Rights Reserved
+Use of this software constitutes acceptance of the accompanying license agreement.
+Licensed to: danish.syed@hbl.com
+Subscription User License: ############################8B3B
+User licenses may not be used on binaries for general release.
+
+Warning: DashO has removed all Type Annotations.
+Total time: 47.843 sec
+
+> Task :app:minifyReleaseWithR8 FAILED
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Invalid stack map table at 83: goto L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\28.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\65.jar: R8: Invalid stack map table at 16: goto L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 21: ifnonnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 12: ifnonnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 24: astore 3, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 24: astore 4, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 24: astore 4, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 24: astore 4, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 24: astore 3, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Invalid stack map table at 60: if_icmpge L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\54.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Invalid stack map table at 18: astore 1, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\5.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\26.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\26.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\26.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\31.jar: R8: Invalid stack map table at 46: q7, error: Source stack [Initialized(java.lang.reflect.Method), Initialized(int)] and destination stack [Initialized(java.lang.Exception)] is not the same size. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\14.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\14.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\14.jar: R8: Invalid stack map table at 4: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\14.jar: R8: Invalid stack map table at 4: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\14.jar: R8: Invalid stack map table at 4: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 3: ifne L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 4: ifnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\2.jar: R8: Invalid stack map table at 4: ifeq L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 10: goto L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 15: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 10: goto L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 14: ifne L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 15: if_icmpgt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 26: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 32: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Invalid stack map table at 135: q7, error: Source stack [Initialized(java.lang.reflect.Constructor), Initialized(java.lang.Object[]), Initialized(java.lang.Object[]), Initialized(int)] and destination stack [Initialized(java.lang.Exception)] is not the same size. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Invalid stack map table at 15: astore 1, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\59.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\26.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 15: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 15: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\13.jar: R8: Invalid stack map table at 25: ifeq L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\13.jar: R8: Invalid stack map table at 45: ifnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Invalid stack map table at 64: q7, error: Source stack [] and destination stack [Initialized(java.lang.reflect.InvocationTargetException)] is not the same size. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\53.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 15: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 16: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 20: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\38.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\28.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 37: astore 1, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Invalid stack map table at 10: ifnonnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\8.jar: R8: Invalid stack map table at 21: astore 0, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Invalid stack map table at 24: goto L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Invalid stack map table at 18: astore 1, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 4: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 14: ifnonnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Invalid stack map table at 27: astore 2, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\26.jar: R8: Invalid stack map table at 64: ifeq L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Invalid stack map table at 4: if_icmplt L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Invalid stack map table at 10: ifnonnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Invalid stack map table at 10: ifnonnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\3.jar: R8: Invalid stack map table at 5: if_icmpne L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\8.jar: R8: Invalid stack map table at 43: astore 3, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 44: astore 1, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 34: q7, error: Source stack [] and destination stack [Initialized(java.lang.Throwable)] is not the same size. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 71: aload 1, error: No local at index 1. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 15: q7, error: Source stack [] and destination stack [Initialized(java.lang.Throwable)] is not the same size. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 15: q7, error: Source stack [] and destination stack [Initialized(java.lang.Throwable)] is not the same size. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 10: astore 0, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\41.jar: R8: Invalid stack map table at 16: ifeq L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\41.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\70.jar: R8: Invalid stack map table at 25: goto L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Invalid stack map table at 48: goto L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\10.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\54.jar: R8: Invalid stack map table at 31: astore 2, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\57.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\57.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\57.jar: R8: Invalid stack map table at 12: ifnonnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\8.jar: R8: Invalid stack map table at 69: astore 3, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\24.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Invalid stack map table at 18: astore 1, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\52.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Invalid stack map table at 27: ifeq L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\5.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\28.jar: R8: Invalid stack map table at 51: astore 3, error: Unexpected state change. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Invalid stack map table at 18: if_icmple L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\4.jar: R8: Invalid stack map table at 4: ifnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Invalid stack map table at 27: q7, error: Source stack [] and destination stack [Initialized(java.lang.NoSuchMethodException)] is not the same size. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\48.jar: R8: Invalid stack map table at 25: q7, error: Source stack [] and destination stack [Initialized(java.lang.NoSuchMethodException)] is not the same size. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 24: ifnonnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\31.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\16.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Invalid stack map table at 46: q7, error: Source stack [Initialized(java.lang.reflect.Field), Initialized(int)] and destination stack [Initialized(java.lang.ReflectiveOperationException)] is not the same size. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\0.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\46.jar: R8: Invalid stack map table at 3: ifnull L?, error: No destination frame. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\50.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+WARNING:C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android\app\build\intermediates\transforms\DashO\release\35.jar: R8: Expected stack map table for method with non-linear control flow. In later version of R8, the method may be assumed not reachable.
+ERROR:R8: java.lang.NullPointerException
+w: Detected multiple Kotlin daemon sessions at build\kotlin\sessions
+
+FAILURE: Build completed with 2 failures.
+
+1: Task failed with an exception.
+-----------
+* What went wrong:
+Execution failed for task ':app:minifyReleaseWithR8'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.R8Task$R8Runnable
+   > Compilation failed to complete
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+2: Task failed with an exception.
+-----------
+* What went wrong:
+java.lang.StackOverflowError (no error message)
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+==============================================================================
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 8.0.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+See https://docs.gradle.org/7.5.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 1m 43s
+119 actionable tasks: 100 executed, 19 up-to-date
+
+C:\Users\farrukh.aslam\Desktop\important\react\practiceApp\android>
